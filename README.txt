@@ -1,9 +1,5 @@
 
 Credits:
-
-	Demo Images:
-		Michael Domaradzki (md.photomerchant.net)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 
