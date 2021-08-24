@@ -79,7 +79,7 @@ input, select, textarea {
 	body {
 		background: #f0f4f4;
 		color: #5b5b5b;
-		font-size: 15pt;
+		font-size: 20pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -131,6 +131,10 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1em;
+		margin: 0 0 0.25em 0;
+	}
+	h6 {
+		font-size: flex;
 		margin: 0 0 0.25em 0;
 	}
 
@@ -2567,6 +2571,20 @@ div.stars {
 			padding-bottom: 1.9em; 
 			
 		}
+		.image.featured3 {
+			float: center;
+			max-width: 100%;
+			width: auto;
+			height:auto;
+			display: block;
+			position: inherit;
+			margin-left: auto;
+			margin-right: auto;
+			margin: 0 auto;
+			padding-bottom: 1.9em; 
+			align-items: center;
+
+		}
 
 		.image.left {
 			float: left;
@@ -3938,7 +3956,7 @@ div.stars {
 				}
 
 				#header header > p {
-					font-size: 1em;
+					font-size: 1.1em;
 				}
 
 				#header h1 {
