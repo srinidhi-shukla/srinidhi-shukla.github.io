@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
+/*
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -787,7 +793,8 @@ h1{
 	font-size: 40px;
   }
   .list li a span {
-	display: block;
+	display:block;
+	max-width: 100%;
 	background: rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	font-size: 22px;
@@ -968,8 +975,9 @@ div.stars {
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
-	margin-top: 5%;
+    border-radius: 5px;
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
 
 .glow-on-hover:before {
@@ -3631,6 +3639,13 @@ div.stars {
   opacity: 0.8;
 }
 
+.counter {
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    position:relative;
+	opacity:9%
+}
 /* Mobile */
 
 	#navPanel, #titleBar {
@@ -4032,6 +4047,30 @@ div.stars {
 
 					.carousel article .image {
 						margin-bottom: 2em;
+					}
+				.showcase video
+					{
+					  position: absolute;
+					  top: 0;
+					  left: 0;
+					  width: 100%;
+					  height: 100%;
+					  object-fit: cover;
+					  opacity: 0.8;
+					}
+				.glow-on-hover {
+						width: 220px;
+						height: 50px;
+						border: none;
+						outline: none;
+						color: #fff;
+						background: #111;
+						cursor: pointer;
+						position: relative;
+						z-index: 0;
+						border-radius: 5px;
+						margin-top: 1%;
+						margin-bottom: 5%;
 					}
 
 	}
