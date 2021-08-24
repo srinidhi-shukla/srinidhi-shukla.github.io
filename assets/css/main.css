@@ -3643,7 +3643,7 @@ div.stars {
     margin-left: auto;
     margin-right: auto;
     z-index: 100;
-    position:relative;
+    position:absolute;
 	opacity:9%
 }
 /* Mobile */
